@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <body>
-<!-- <div class="background"> -->
+<div class="background">
 
 <head>
  
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
 </head>
 
-<div class="picture"></div>
+<div class="picture">
+        <div class="image-text">Erik Plimmer, Developer </div></div>
 
 
 <div class="header">
@@ -19,38 +21,30 @@
 
        <ul class="navbar">
     
-       <li><a href="https://erikplimmer.github.io/Basic-Portfolio/index.html">About |</a></li>
+       <li><a href="#linkToAbout">About |</a></li>
     
-      <li><a href="https://erikplimmer.github.io/Basic-Portfolio/portfolio.html">Portfolio |</a></li>
+      <li><a href="#linkToPortfolio">Portfolio |</a></li>
     
-      <li><a href="https://erikplimmer.github.io/Basic-Portfolio/contact.html">Contact </a></li>
+      <li><a href="#linkToContact">Contact </a></li>
 
       </ul>    
 
 </div> 
 
-
-
-
-<div class="mainsection">
+<a name="linkToAbout"><div class="mainsection">
      
     <h1>About me</h1>
-    
-         <hr>
 
-
-
-  <img class="photo" src="http://i64.tinypic.com/2j0yw6c.jpg">
+    <img class="photo" src="http://i64.tinypic.com/2j0yw6c.jpg">
   
-    <br>
-        <br>  
 
-    <p>My name is Erik Plimmer. I've recently graduated from the UNC Coding Boot Camp course 
-        and am a highly driven and motivated individual seeking position as an entry level Front-end Developer 
+
+    <p> My name is Erik Plimmer. I've recently graduated from the UNC Coding Boot Camp program 
+        and am a highly driven and motivated <br> individual seeking position as an entry level Front-end Developer 
         at an organization where I can build my skills and grow long term.
     </p>
     
-</div> <!--mainsection -->
+</div></a> <!--mainsection -->
 
 
 <!-- 
@@ -63,11 +57,10 @@
 
 
 
-<div class="portfolioSection">
-
+<a name="linkToPortfolio"><div class="portfolioSection">
+    <br><br>
     <h1>Portfolio</h1>
-    <hr>
-    
+    <br><br>
     <a href="https://github.com/ErikPlimmer">
     <div class="cars">  
                 <div class="boxtext">Hangman</div>
@@ -93,47 +86,49 @@
                 <div class="boxtext">Info Wiget</div>
 
     </div></a>
-            <br>
+            
  <a href="https://github.com/ErikPlimmer">
     <div class="ipad">  
                 <div class="boxtext">Ro Sham Bo</div>           	
     
-</div></a>
+    </div></a>
     
-</div>
+</div></a>
 
 
-<div class="contact">
-    <h1>Contact</h1>
-      <hr>
-        <form action="mailto:Elp013@Gmail.com" method="get">
+<a name="linkToContact"><div class="contact">
+    <br><br>
+    Contact
+      
+        <div class="contactForm"><form action="mailto:Elp013@Gmail.com" method="get">
 
-            <label for="fname">Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-            <label for="fname">Email</label>
-            <input type="text" id="fname" name="Email" placeholder="Examlpe@Gmail.com..">
-
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
-
+            
+            <input type="text" id="fname" name="firstname" placeholder="Name">
+            <br>
+           
+            <input type="text" id="fname" name="Email" placeholder="Enter Email">
+            <br>
+            <textarea id="subject" name="subject" placeholder="Your message" style="height:200px"></textarea>
+            <br><br>
             <input type="submit" value="Submit">
+            <br><br><br>
+        </form></div>
+</div></a>
 
-        </form>
 </div>
-
-<!-- </div> background            -->
 
 </body>
 
 
-<footer><span>ErikPlimmer</span> 
-    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><img src="assets/images/linkedin2.png"></a>
+<footer>
+    <div class="iconRow">
+            
+    <div class="icon"><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i class="fab fa-linkedin-in"></i></a></div>
 
-    <a href="https://github.com/ErikPlimmer"><img src="assets/images/git3.png"></a>
+    <div class="icon"><a href="https://github.com/ErikPlimmer"><i class="fab fa-github"></i></a></div>
     
-    <a href="https://stackexchange.com/users/12208139/erik-plimmer"><img src="assets/images/stack.png"></a>
-       
+    <br>
+    <div class="myName"<span>ErikPlimmer ©2018</span></div></div>
 </footer>
 
 
